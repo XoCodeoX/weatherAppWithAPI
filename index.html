@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" Mateusz Skibicki, Kamil Rydzewski, Nikodem Miszkiewicz, Wojciech Pałasz">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <title>Aplikacja Pogodowa</title>
+</head>
+
+<body>
+
+    <button id="start">show weather</button>
+
+    <div id="wrapper">
+        <h1 class="title">Simply Weather App</h1>
+
+        <section class="location">
+            <p class="timezone">Waiting for location...</p>
+            <p class="time"></p>
+            <p class="city"></p>
+            <p class="country"></p>
+        </section>
+
+        <section class="degree-section">
+            <p class="today"></p>
+            <p class="degree"></p>
+            <p class="wind"></p>
+        </section>
+        <div class="temperature-description"></div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
